@@ -3,9 +3,7 @@ body{
 }
 .bg-color{
     background-color: rgba(42, 78, 92, 1);
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 0px;
+    
 }
 .image-gray{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -29,13 +27,7 @@ body{
 .fa-star.empty{
     color:  #AEAEAE;
 }
-.radious{
-    border-radius: 15px;
-}
-.faq-margin{
-    margin-left: 0px;
-    margin-right: 0px;
-}
+
 .map-responsive{
     overflow: hidden;
     padding-bottom: 50%;

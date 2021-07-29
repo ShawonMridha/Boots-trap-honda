@@ -4,49 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment3</title>
-    <!-- bootstrap link -->
+    <title>Document</title>
+    <!-- BOOTSTRAP link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- css link -->
+    <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
-    <!-- fontawesome link -->
+    <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/2fc718b1dd.js" crossorigin="anonymous"></script>
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- header area start -->
-    <header>
-  <!-- THUMNAIL PART   -->
-      <section class="container-fluid">
-         <div class="row d-flex align-items-center d-flex justify-content-evenly bg-color">
-          <nav class="navbar navbar-expand-lg navbar-light mt-0">
-            <div class="container-fluid">
-              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                  <a class="nav-link text-white" href="#">Shop</a>
-                  <a class="nav-link text-white" href="#">News</a>
-                  <a class="nav-link text-white" href="#">Contact</a>
-                  <a class="nav-link button-bg text-center" href="#">Login</a>
-                </div> 
-              </div>
-            </div>
-          </nav>
-          <div class="col-lg-6 ps-5">
-            <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
-              <h1 class="text-white">Honda CBR 300R</h1>
-             <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>
-               dolor do amet sint. Velit officia consequat duis enim velit <br>
-                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+  <!-- header area  -->
+   <header>
+        <section class="container-fluid">
+            <div class="row p-5 d-flex align-items-center d-flex justify-content-evenly bg-color">
+               <div class="col-lg-6">
+                  <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-white" style="margin-left: 30px;" >Honda CBR 300R</h1>
+                  <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                   dolor do amet sint. Velit officia consequat duis enim velit <br>
+                  mollit. Exercitation veniam consequat sunt nostrud amet.</p>
              <!-- Button trigger modal -->
-<button type="button" class="button-bg" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  purchase
-</button>
+                      <button type="button" class="button-bg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        purchase
+                       </button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -73,18 +57,15 @@
       </div>
       </section>
     </header>
-    <!-- header end -->
+    <!-- header area end -->
 
     <!-- main area start -->
-   
-      <main> 
+    <main>
       <!-- bike feture -->
-        <section class="container text-center mt-5">
-            <h2>Futured Bikes 2021</h2>
-             <p> <span class="client">Best bike collection</span> </p>
-        </section>
         <section class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-5 biker-margin">
+             <h2 class="text-center">Futured Bikes 2021</h2>
+             <p class="text-center"> <span class="client">Best bike collection</span> </p>
+              <div class="row row-cols-1 row-cols-md-2 g-5 biker-margin">
               <div class="col-lg-4">
                   <img src="images/feature-bike.jpg" alt="" class="image-gray" style="width: 288px; height: 243px;">
               </div>
@@ -95,12 +76,14 @@
                   <img src="images/feature-bike.jpg" alt="" class="image-gray" style="width: 288px; height: 243px;">
               </div>
           </div>
+        </section>  <section class="conatiner text-center mt-5">
+            <h2>Happy <span class="client">Clients Says</span> </h2>
         </section>
-<!-- client section -->
-<section class="container mt-5">
-  <h2 class="text-center">Happy <span class="client">Clients Says</span> </h2>  
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-            <div class="col">
+
+        <!-- client section -->
+     <section class="container">  
+               <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+               <div class="col">
               <div class="card border h-100">
                <div class="d-flex align-items-center d-flex justify-content-center ">
                 <img src="images/user-1.png" class="card-img-top w-50 py-5" alt="...">
@@ -151,7 +134,7 @@
             <div class="col">
               <div class="card border h-100">
                <div class="d-flex align-items-center d-flex justify-content-center">
-                <img src="images/boots.PNG" class="card-img-top w-50 py-5 " alt="...">
+                <img src="images/boots.PNG" class="card-img-top w-50 py-5" alt="...">
                </div>
                 <div class="card-body">
                   <p class="card-text text-center">Slate helps you see how <br>
@@ -173,18 +156,15 @@
               </div>
             </div>
         </div>
-         </section>
-         <!-- client section end -->
-
-       <!-- FAQ SECTION -->
+      </section>
+       <!-- FAQ section -->
         <section class="container mt-5">
           <h2 class="text-center">Frequently Asked <span class="client">Questions</span> </h2>
-            <div class="row row-cols-12 row-cols-md-2 row-cols-lg-3 d-flex align-items-center ">
+            <div class="row row-cols-12 row-cols-md-2 row-cols-lg-3 d-flex align-items-center">
                 <div class="col-lg-6 gy-5">
                     <img src="images/faq.png" alt="" class="img-fluid" style="width: 431px; height: 423px;">
                 </div>
-                <!-- ACCORDION AREA -->
-                <div class="row-cols-12 col-lg-6 gy-5 faq-margin">
+                <div class="row-cols-12 col-lg-6 gy-5">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item border">
                           <h2 class="accordion-header" id="flush-headingOne">
@@ -238,7 +218,7 @@
         </section>
 
 
-     <!-- ADDRESS AREA -->
+
         <section class="container mt-5 mb-5 p-5">
           <h2 class="text-center">Our Adress:</h2>
           <div>
@@ -259,7 +239,7 @@
             </div>
           </div>
         </section>
-     <!-- PROGRESS AREA -->
+
         <section class="container my-5">
           <h2>Learn Progress:</h2>
           <div class="progress">
@@ -275,10 +255,12 @@
             <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">HTMAL AND CSS</div>
           </div>
         </section>
- </main>
-  
 
- <!-- js link -->
+
+
+
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
