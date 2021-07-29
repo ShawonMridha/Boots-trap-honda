@@ -1,5 +1,11 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .bg-color{
     background-color: rgba(42, 78, 92, 1);
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
 }
 .image-gray{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -14,6 +20,9 @@
     padding: 12px 24px;
     border-radius: 5px;
 }
+.biker-margin{
+    margin-left: 0px;
+}
 .fa-star.filled{
     color: #e76f51;
 }
@@ -22,6 +31,10 @@
 }
 .radious{
     border-radius: 15px;
+}
+.faq-margin{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .map-responsive{
     overflow: hidden;

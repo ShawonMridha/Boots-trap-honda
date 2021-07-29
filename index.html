@@ -11,13 +11,33 @@
     <link rel="stylesheet" href="style.css">
     <!-- fontawesome link -->
     <script src="https://kit.fontawesome.com/2fc718b1dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- header area start -->
     <header>
-      <section class="w-100">
-        <div class="row p-5 d-flex align-items-center d-flex justify-content-evenly bg-color">
-          <div class="col-lg-6">
+  <!-- THUMNAIL PART   -->
+      <section class="container-fluid">
+         <div class="row d-flex align-items-center d-flex justify-content-evenly bg-color">
+          <nav class="navbar navbar-expand-lg navbar-light mt-0">
+            <div class="container-fluid">
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  <a class="nav-link text-white" href="#">Shop</a>
+                  <a class="nav-link text-white" href="#">News</a>
+                  <a class="nav-link text-white" href="#">Contact</a>
+                  <a class="nav-link button-bg text-center" href="#">Login</a>
+                </div> 
+              </div>
+            </div>
+          </nav>
+          <div class="col-lg-6 ps-5">
             <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
               <h1 class="text-white">Honda CBR 300R</h1>
              <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>
@@ -56,14 +76,15 @@
     <!-- header end -->
 
     <!-- main area start -->
-    <main>
+   
+      <main> 
       <!-- bike feture -->
         <section class="container text-center mt-5">
             <h2>Futured Bikes 2021</h2>
              <p> <span class="client">Best bike collection</span> </p>
         </section>
         <section class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-5">
+          <div class="row row-cols-1 row-cols-md-2 g-5 biker-margin">
               <div class="col-lg-4">
                   <img src="images/feature-bike.jpg" alt="" class="image-gray" style="width: 288px; height: 243px;">
               </div>
@@ -158,12 +179,12 @@
        <!-- FAQ SECTION -->
         <section class="container mt-5">
           <h2 class="text-center">Frequently Asked <span class="client">Questions</span> </h2>
-            <div class="row row-cols-12 row-cols-md-2 row-cols-lg-3 d-flex align-items-center">
+            <div class="row row-cols-12 row-cols-md-2 row-cols-lg-3 d-flex align-items-center ">
                 <div class="col-lg-6 gy-5">
                     <img src="images/faq.png" alt="" class="img-fluid" style="width: 431px; height: 423px;">
                 </div>
                 <!-- ACCORDION AREA -->
-                <div class="row-cols-12 col-lg-6 gy-5">
+                <div class="row-cols-12 col-lg-6 gy-5 faq-margin">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item border">
                           <h2 class="accordion-header" id="flush-headingOne">
@@ -255,6 +276,8 @@
           </div>
         </section>
  </main>
+  
+
  <!-- js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
