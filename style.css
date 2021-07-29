@@ -1,0 +1,38 @@
+.bg-color{
+    background-color: rgba(42, 78, 92, 1);
+}
+.image-gray{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.client{
+    color: rgba(231, 111, 81, 1);
+}
+.button-bg{
+    background-color: #e76f51;
+    border-style: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+.fa-star.filled{
+    color: #e76f51;
+}
+.fa-star.empty{
+    color:  #AEAEAE;
+}
+.radious{
+    border-radius: 15px;
+}
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
